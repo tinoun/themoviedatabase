@@ -1,24 +1,38 @@
-# README
+-------------
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Introduction : Présentation de l'équipe (@pseudo_slack)
+- Manu @tinoun 
 
-Things you may want to cover:
+Tout seul sur ce projet pour cause géographique 
 
-* Ruby version
+-------------
 
-* System dependencies
+### Utilisation du bundle
 
-* Configuration
+Tout d'abord, clone ce projet dans ton dossier.
+Ouvre ton Terminal, et place toi dans le dossier cloné.
 
-* Database creation
+Tape : `bundle install` dans ton Terminal.
+Cela te permettra d'installer les gems necessaires à l'execution du programme.
 
-* Database initialization
+Si tu as un message d'erreur, essaie `rvm install 2.5.1`.
+ou encore `gem update`
 
-* How to run the test suite
+Si tu as (encore) un message d'erreur, *n'hésites pas à nous contacter!*
 
-* Services (job queues, cache servers, search engines, etc.)
+------------
 
-* Deployment instructions
+### Projet 
 
-* ...
+Premier exo terminé à 100% 
+
+Si tu as des erreurs contacte moi car tout marche. 
+
+--> teste de refaire le bundle install ou utilises bien la version 2.5.1 de ruby ! 
+
+ATTENTION !!!!!! ----> Deuxième exo en cours et dispo sur ce lien : https://github.com/tinoun/crud.git 
+
+## Merci pour la correction ! 
+
+
+![alt tag](https://user-images.githubusercontent.com/37908682/38898586-acc9ed70-4295-11e8-9433-fa83027043be.png)
