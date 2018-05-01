@@ -32,7 +32,8 @@ Si tu as des erreurs contacte moi car tout marche.
 
 --> teste de refaire le bundle install ou utilises bien la version 2.5.1 de ruby ! 
 
-ATTENTION !!!!!! ----> Deuxième exo en cours et dispo sur ce lien : https://github.com/tinoun/crud.git 
+ATTENTION !!!!!! ----> Deuxième exo pas du tout terminé et dispo sur ce lien : https://github.com/tinoun/crud.git 
+Lien de prod : https://fast-refuge-55527.herokuapp.com/
 
 ## Merci pour la correction ! 
 
