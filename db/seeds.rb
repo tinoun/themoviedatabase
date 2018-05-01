@@ -1,9 +1,18 @@
+require 'faker'
+
 Movie.destroy_all
+Director.destroy_all 
 
-10.times do |index|
+50.times do |index|
 
-  a = Movie.create(title: "Avengers", release_date: "2018", director: "M.connery")
-  a = Movie.create(title: "Moi moche mechant", release_date: "2013", director: "Mairje")
-  a = Movie.create(title: "Moi la france", release_date: "2011", director: "MMcallister")  
+	a = Movie.create(title: Faker::Book.title, release_date: Random.new.rand(1990..2018),director_id:Random.new.rand(1..30))
+	a = Director.create(first_name: Faker::Name.first_name, last_name: Faker::Name.last_name )
+
 
 end
+
+=begin
+	
+
+	directors_id:Random.new.rand(1..30)
+=end

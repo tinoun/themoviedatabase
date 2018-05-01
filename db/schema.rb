@@ -10,12 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_05_01_095016) do
+ActiveRecord::Schema.define(version: 2018_05_01_144707) do
+
+  create_table "directors", force: :cascade do |t|
+    t.string "first_name"
+    t.string "last_name"
+    t.integer "movies_id"
+    t.index ["movies_id"], name: "index_directors_on_movies_id"
+  end
 
   create_table "movies", force: :cascade do |t|
     t.string "title"
     t.integer "release_date"
-    t.string "director"
+    t.integer "director_id"
+    t.index ["director_id"], name: "index_movies_on_director_id"
   end
 
 end
