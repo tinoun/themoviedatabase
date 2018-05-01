@@ -1,9 +1,11 @@
--------------
+A LIRE PLEASE 
 
 ### Introduction : Présentation de l'équipe (@pseudo_slack)
 - Manu @tinoun 
 
 Tout seul sur ce projet pour cause géographique 
+
+Lien de prod : https://polar-gorge-24409.herokuapp.com/
 
 -------------
 
